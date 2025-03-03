@@ -14,7 +14,7 @@
   <p align="center">
     <strong>Vamos transformar Angola em uma API?</strong>
     <br/>
-    <label> Que tal pegarmos a ideia do Brasil API e levarmos em Angola?</label>
+    <label> Que tal criarmos uma API pública e gratuita para fornecer dados úteis e estruturados sobre Angola?</label>
   </p>
 </div>
 
@@ -32,9 +32,9 @@
 
 Imagina um país com 1.246.700 km² com cerca de 30 milhões de habitantes distribuído em 18 províncias, mas não possui uma API pública para consulta de diversas informações sobre finanças, geografia ou validação de dados. Pois é, um grande problema.
 
-Face a esse problema nos inspiramos na organização brasileira chamada [Brasil Api](https://github.com/BrasilAPI/BrasilAPI/) e decidimos reunir o maior número de informações necessária sobre Angola e distribuir de forma gratuita.
+Face a esse problema decidimos reunir o maior número de informações necessária sobre Angola e distribuir de forma gratuita.
 
-Nós conseguimos distribuir algumas informações bancarias como :
+Nós conseguimos fornecer algumas informações bancárias como:
 <ul>
   <li> Taxa de juro do BNA</li>
   <li> Taxa de juro Luibor (Taxa Interbancária de Oferta de Fundos do Mercado de Luanda)</li>
@@ -46,17 +46,17 @@ Nós conseguimos distribuir algumas informações bancarias como :
 Todas as informações acima são extraídas diretamente do site https://www.bna.ao.
 <br/>
 <br/>
-Também decidimos disponiblizar endpoints para validar as seguintes informações :
+Também disponiblizamos endpoints para validar as seguintes informações:
  <ul>
    <li> Bilhete de identidade</li>
    <li> Passaporte </li>
    <li> Número de telefone</li>
  </ul>
-Importante realçar que também conseguimos disponiblizar conteúdos como :
+Importante realçar que também conseguimos disponiblizar conteúdos como:
  <ul>
-   <li> Lista de provincias de Angola</li>
-   <li> Lista de munícipios de uma província </li>
-   <li> Lista de distritos de um munícipio</li>
+   <li> Lista de províncias de Angola</li>
+   <li> Lista de municípios de uma província </li>
+   <li> Lista de distritos de um município</li>
  </ul>
 
 ## :hammer_and_wrench: Tecnologias
@@ -68,7 +68,7 @@ Este projecto foi construído usando as seguintes tecnologias:
 
 ## :link: Endpoints
 
-Embaixo segue a lista e descrição de endpoints implementados nesse projecto.
+Logo abaixo temos as lista e descrição de cada endpoint da API.
 OBS: SSL está desabilitado nos endpoints.
 
 ### Geography
@@ -138,9 +138,9 @@ Retorna a lista de províncias do território nacional ou apenas uma província 
 }
 ```
 
-#### Munícipios
+#### Municípios
 
-Busca pelos munícipios de uma determinada província
+Busca pelos municípios de uma determinada província
 
 **GET** `https://angolaapi.onrender.com/api/v1/geography/county?provincia=`**[municipio]**
 
@@ -211,7 +211,7 @@ Busca pelos munícipios de uma determinada província
 
 #### Bilhete de identidade
 
-Verifica se número informado é um bilhete de identidade nacional.
+Verifica se número informado corrresponde a um bilhete de identidade nacional.
 
 **GET** `https://angolaapi.onrender.com/api/v1/validate/bi/`**[bi]**
 
@@ -239,7 +239,7 @@ Verifica se número informado é um bilhete de identidade nacional.
 
 #### Passaporte
 
-Retorna se o registo informado é aceitavél como identificador de um passaporte angolano.
+Retorna se o registo informado é aceitável como identificador de um passaporte angolano.
 
 **GET** `https://angolaapi.onrender.com/api/v1/validate/passport/`**[passport]**
 
@@ -265,7 +265,7 @@ Retorna se o registo informado é aceitavél como identificador de um passaporte
 
 #### Telefone
 
-Verifica se o número informado é de Angola e a qual operadora pertence.
+Verifica se o número de telefone informado corresponde a um número de telefone válido em Angola, além de informar a operadora na qual pertence.
 
 **GET** `https://angolaapi.onrender.com/api/v1/validate/phone/`**[phone]**
 
@@ -292,7 +292,7 @@ Verifica se o número informado é de Angola e a qual operadora pertence.
 
 ## :open_hands: Como contribuir
 
-### Chega de Português rsrsrs, abaixo os passos para contribuir no Angola Api  
+### Chega de Português rsrsrs, abaixo os passos para contribuir no Angola Api
 
 1. Faça um Fork no projecto (<https://github.com/Angola-Api/Angola-Api>)
 2. Cria uma branch com a tua feature (`git checkout -b angolaapi/new-feature`)
@@ -302,7 +302,7 @@ Verifica se o número informado é de Angola e a qual operadora pertence.
 
 ## :memo: License
 
-Este projeto está sob a licença do MIT. Acessa: (<https://opensource.org/licenses/MIT>) para mais detalhes.
+Este projeto está sob a licença do MIT. Acesse: (<https://opensource.org/licenses/MIT>) para mais detalhes.
 
 ## :busts_in_silhouette: Colaboradores
 
