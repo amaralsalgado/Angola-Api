@@ -30,7 +30,7 @@
 
 ## :bulb: Sobre o projecto
 
-Imagina um país com 1.246.700 km² com cerca de 30 milhões de habitantes distribuído em 18 províncias, mas não possui uma API pública para consulta de diversas informações sobre finanças, geografia ou validação de dados. Pois é, um grande problema.
+Imagina um país com 1.246.700 km² e cerca de 30 milhões de habitantes distribuído em 18 províncias, mas não possui uma API pública para consulta de diversas informações sobre finanças, geografia ou validação de dados. Pois é, um grande problema.
 
 Face a esse problema decidimos reunir o maior número de informações necessária sobre Angola e distribuir de forma gratuita.
 
